@@ -1,0 +1,11 @@
+name: fastai
+channels:
+  - fastchan
+  - defaults
+dependencies:
+  - fastai=2.7.10
+  - pip:
+      - ipykernel
+      - kaggle==1.5
+      - ipywidgets==8.0
+prefix: /opt/miniconda3/envs/fastai
